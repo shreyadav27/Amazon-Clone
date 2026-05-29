@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #e3e6e6;
+}
+
+.navbar{
+    height: 60px;
+    background: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 10px;
+    gap: 10px;
+}
+/* logo */
+.logo{
+    background-image: url("logo.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.nav-logo{
+    height: 50px;
+    width: 120px;
+}
+.border{
+    border: 2px solid transparent;
+    padding: 5px;
+    
+}
+.border:hover{
+    border: 2px solid #febd69;
+    
+}
+/* address */
+
+.nav-address{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.add-second{
+    font-size: 18px;
+    margin-left: 3px;
+}
+
+/* nav search */
+.search-navbar{
+    height: 40px;
+    flex: 1;
+    max-width: 720px;
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.search-navbar:hover{
+    border-color: #febd69;
+}
+
+
+.search-navbar select{
+    width: 55px;
+    height: 100%;
+    border: none;
+    background: #e6e6e6;
+    text-align: center;
+}
+
+.search-navbar input{
+    height: 100%;
+    flex: 1;
+    border: none;
+    padding:12px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-navbar button{
+    width: 45px;
+    height: 100%;
+    border: none;
+    background: #febd69;
+    font-size: 18px;
+    cursor: pointer;
+}
+span{
+    font-size:12px;
+}
+.nav-signin:hover{
+    border: 2px solid #febd69;
+}
+.nav-second{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.order:hover{
+    border: 2px solid  #febd69;
+}
+
+
+
+.order-second{
+    font-size: 14px;
+    font-weight: 700;
+}
+.nav-cart{
+    
+    
+    font-size: 14px;
+    font-weight: 700;
+}
+.nav-cart i{
+   font-size: 30px;
+}
+.nav-cart:hover{
+    border: 2px solid #febd69;
+}
+
+
+
+
+
+
+.panel{
+    height: 40px;
+    background: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 16px;
+    justify-content: space-evenly;
+}
+
+.panel-all,
+.app1,
+.app2,
+.app3,
+.app4,
+.app5,
+.app6,
+.app7{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 20px;
+    border: 2px solid transparent;
+    padding: 0 8px;
+    font-weight: 600;
+
+}   
+.panel-all:hover,
+.app1:hover,
+.app2:hover,
+.app3:hover,
+.app4:hover,
+.app5:hover,
+.app6:hover,
+.app7:hover{
+    border-color: #febd69;
+    cursor: pointer;
+}
+.hero{
+    height: 400px;
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+    
+}
+.shop{
+    height:400px;
+    width: 23%;
+    background: white;
+    padding: 18px 15px;
+}
+
+.shop h2{
+    font-size: 21px;
+    margin-bottom: 14px;
+}
+
+.shop p{
+    color: #007185;
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.shop-img{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.image1{
+    background-image: url("mini2.jpg");
+}
+
+.image2{
+    background-image: url("mini4.jpg");
+}
+
+.image3{
+    background-image: url("mini5.jpg");
+}
+
+.image4{
+    background-image: url("mini6.jpg");
+}
+
+.last-second{
+    height: 60px;
+    border: 2px solid black;
+    padding: 20px;
+    display:flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    background: white;
+}
+.footer-panel{
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.footer-links{
+    background: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 20px;
+}
+
+.footer-links ul{
+    list-style: none;
+    width: 22%;
+}
+
+.footer-links p{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.footer-links a{
+    color: #dddddd;
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.footer-logo{
+    height: 80px;
+    background: #232f3e;
+    border-top: 1px solid #3a4553;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo .logo{
+    width: 120px;
+    height: 50px;
+}
